@@ -5,8 +5,6 @@ CHAT=$3
 # clone Odoo directory
 git clone --depth=1 https://github.com/mezziamani2809/test.git $DESTINATION
 rm -rf $DESTINATION/.git
-
-# set permission
 mkdir -p $DESTINATION/postgresql
 sudo chmod -R 777 $DESTINATION
 # config
